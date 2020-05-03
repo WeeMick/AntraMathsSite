@@ -1,0 +1,37 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "echo",
+            "type": "shell",
+            "command": "node-sass css/reset.scss >> css/styles.css && node-sass css/small.scss >> css/styles.css && node-sass css/medium.scss >> css/styles.css && node-sass css/large.scss >> css/styles.css",
+            "problemMatcher": []
+        },
+        {
+            "type": "gulp",
+            "task": "default",
+            "problemMatcher": []
+        },
+        {
+            "type": "gulp",
+            "task": "sass",
+            "problemMatcher": []
+        },
+        {
+            "type": "npm",
+            "script": "scss",
+            "problemMatcher": [
+                "$node-sass"
+            ]
+        },
+        {
+            "type": "npm",
+            "script": "start",
+            "problemMatcher": [
+                "$node-sass"
+            ]
+        }
+    ]
+}
