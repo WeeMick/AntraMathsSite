@@ -37,7 +37,7 @@
     "isarray": "^1.0.0",
     "isexe": "^2.0.0",
     "isobject": "^3.0.1",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.14.1",
     "npm-watch": "^0.6.0",
     "watch": "^1.0.2"
   },
