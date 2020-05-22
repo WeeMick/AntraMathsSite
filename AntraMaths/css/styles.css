@@ -181,7 +181,10 @@ main {
     width: 100%; }
   main figure.photo figcaption {
     text-align: center;
-    color: #66000a; }
+    color: #66000a;
+    font-weight: 800;
+    font-size: 2em;
+  }
   main div.blog article {
     margin: 0.5rem 2%;
     width: 96%; }
