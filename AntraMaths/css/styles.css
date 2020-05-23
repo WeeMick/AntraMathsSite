@@ -185,9 +185,9 @@ main {
     font-weight: 800;
     font-size: 2em;
   }
-  main div.blog article {
+  main div.problems {
     margin: 0.5rem 2%;
-    width: 96%; }
+    width: 65%; }
   main div.pop {
     background-color: #8c8c38;
     text-align: center;
@@ -229,10 +229,10 @@ footer {
     width: 46%;
     margin: 5rem 2%;
     float: left; }
-  main div.blog article {
+  main div.problems article {
     float: left;
     width: 46%; }
-  main div.blog article:nth-child(2n + 1) {
+  main div.problems article:nth-child(2n + 1) {
     clear: left; } }
 @media only screen and (min-width: 60rem) {
   header, nav, main, footer {
@@ -257,17 +257,20 @@ footer {
     width: 21%;
     margin: 5rem 2%;
     float: left; }
-  main div.blog article {
+  main div.problems article {
     float: left;
-    width: 29.33%; }
-  main div.blog article:nth-child(2n + 1) {
+    width: 48%; }
+  main div.problems article:nth-child(2n + 1) {
     clear: none; }
-  main div.blog article:nth-child(3n + 1) {
-    clear: left; }
+  /* main div.problems article:nth-child(3n + 1) {
+    clear: left; } */
   main section {
     max-width: 60rem;
     margin: 0 auto; } }
 
+
+
+    /* ------------------------------------------------------ Freeestyle -------------------------*/
     /* Button used to open the chat form - fixed at the bottom of the page */
 .open-button {
   background-color: #555;
@@ -353,4 +356,21 @@ footer {
   font-family: 'Franklin Gothic Medium';
   font-size: 1em;
 
+}
+
+.half {
+  width: 48%;
+  float: left;
+}
+
+
+.problems {
+  width: 67%;
+  float: left;
+}
+
+.chat {
+  width: 25%;
+  float: right;
+  display: inline-block;
 }
