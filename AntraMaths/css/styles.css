@@ -120,8 +120,8 @@ header {
   header form input:focus {
     width: 8rem; }
   header h1 {
-    font-size: 2rem;
-    font-weight: 300; }
+    font-size: 3rem;
+    font-weight: 330; }
   header h2 {
     font-size: 1.05rem;
     font-weight: 300; }
@@ -336,4 +336,10 @@ footer {
 /* Add some hover effects to buttons */
 .form-container .btn:hover, .open-button:hover {
   opacity: 1;
+}
+
+.emojie {
+ float: left;
+ width: 4.5em;
+ margin-right: 1em;
 }
