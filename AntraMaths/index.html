@@ -14,6 +14,16 @@
     <!-- STYLE SHEETS -->
     <link href="css/styles.css" rel="stylesheet">
 
+    <script>
+      function openForm() {
+        document.getElementById("myForm").style.display = "block";
+        }
+
+       function closeForm() {
+         document.getElementById("myForm").style.display = "none";
+       }
+    </script>
+
 </head>
 
 <body>
@@ -75,8 +85,8 @@
 
         <section>
         <div class="pop">
-        <iframe src="//www.slideshare.net/slideshow/embed_code/key/2DxcMq2uy8kUwa" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/secret/2DxcMq2uy8kUwa" title="Maths lesson" target="_blank"></div">
-            </div></section>
+        <iframe src="//www.slideshare.net/slideshow/embed_code/key/2DxcMq2uy8kUwa" width="595" height="485" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <a href="//www.slideshare.net/secret/2DxcMq2uy8kUwa" title="Maths lesson" target="_blank"></a>
+            </div></div></section>
             <section>
             <h2>Problems</h2>
             <div class="blog">
@@ -166,7 +176,19 @@
                         etiam ultrices dis facilisis nascetur. Pellentesque cursus integer mauris augue enim</p>
                 </article>
             </div> <!-- end of blog -->
-        </section> <!--end of section-->
+        </section>
+        <section> 
+          <div class="chat-popup" id="myForm">
+            <form action="/action_page.php" class="form-container">
+              <h1>Chat</h1>
+              <label for="msg"><b>Message</b></label>
+              <textarea placeholder="Type message.." name="msg" required></textarea>
+              <button type="submit" class="btn">Send</button>
+              <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            </form>
+          </div>
+        </section>
+<!--end of section-->
         </main>
     </div> <!-- end of wrapper -->
 
