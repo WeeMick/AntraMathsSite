@@ -343,3 +343,14 @@ footer {
  width: 4.5em;
  margin-right: 1em;
 }
+
+.calculator {
+  display: block;
+  margin: 2em auto;
+  width:  10em;
+  height: 4em;
+  padding: .5em;
+  font-family: 'Franklin Gothic Medium';
+  font-size: 1em;
+
+}
